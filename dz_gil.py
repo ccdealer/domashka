@@ -5,7 +5,7 @@ import time
 
 
 def zapis(k:int):
-        file = open(f"src/example{k+1}.txt", "w")
+        file = open(f"example{k+1}.txt", "w")
         file.write(f"{k+1}")
         print
         file.close()
